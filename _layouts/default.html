@@ -17,6 +17,14 @@
         <a href="{{ '/' | relative_url }}">サイトトップ</a>
         <a href="{{ '/tarkov/' | relative_url }}">タルコフメモ</a>
         <a href="{{ '/links/' | relative_url }}">リンク集</a>
+        <div class="menu-heading">記事一覧</div>
+        <div class="menu-posts">
+          {% for post in site.posts %}
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% else %}
+            <span class="menu-empty">まだ記事はありません</span>
+          {% endfor %}
+        </div>
       </nav>
       <div class="sidebar-footer">est. 2026<br><span>/// private notes</span></div>
     </aside>
@@ -33,4 +41,3 @@
   </div>
 </body>
 </html>
-

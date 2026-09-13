@@ -35,6 +35,12 @@ a:hover { color: #b26877; text-decoration: underline; }
 .menu a { display: block; padding: 8px 3px; color: #506d70; border-bottom: 1px dotted #9dbbb5; font-size: 12px; }
 .menu a::before { content: "·"; margin-right: 8px; color: #c37c86; font-weight: bold; }
 .menu a:hover { padding-left: 7px; background: rgba(255,255,255,.35); text-decoration: none; }
+.menu-heading { margin: 17px 0 2px; padding: 0 3px; color: #8d737b; font-size: 10px; letter-spacing: .12em; }
+.menu-posts { max-height: 300px; overflow-y: auto; padding-left: 10px; border-left: 1px solid rgba(141, 178, 171, .55); }
+.menu-posts a { padding: 4px 3px; border-bottom: 1px dotted rgba(157, 187, 181, .72); color: #668184; font-size: 11px; line-height: 1.45; }
+.menu-posts a::before { content: "↳"; margin-right: 5px; color: #c47f88; }
+.menu-posts a:hover { padding-left: 7px; }
+.menu-empty { display: block; padding: 4px 3px; color: #879b99; font-size: 10px; line-height: 1.5; }
 .sidebar-footer { position: absolute; bottom: 21px; color: #78908f; font-size: 10px; line-height: 1.7; }
 .sidebar-footer span { color: #a0b2b1; font-size: 9px; }
 .content { flex: 1; background: var(--paper); background-image: linear-gradient(90deg, transparent 0, transparent 27px, rgba(231, 213, 216, .22) 28px, transparent 29px); }
