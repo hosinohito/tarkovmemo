@@ -4,3 +4,4 @@ baseurl: "/tarkovmemo"
 url: ""
 markdown: kramdown
 permalink: /tarkov/:title/
+future: true
