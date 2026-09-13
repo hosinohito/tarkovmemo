@@ -6,6 +6,7 @@ category: PREPARE
 tags:
   - 出撃準備
   - 持ち物
+published: false
 ---
 
 レイドに入る前に確認する、最低限の持ち物メモ。
