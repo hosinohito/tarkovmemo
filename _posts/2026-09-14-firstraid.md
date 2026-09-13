@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 導入
-date: 2026-09-14
+date: 2026-09-14 00:00:00 +0900
 category: NOTE
 published: true
 ---
