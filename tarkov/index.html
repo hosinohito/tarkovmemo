@@ -1,0 +1,15 @@
+---
+layout: default
+title: Tarkov Memo
+section: ESCAPE FROM TARKOV
+---
+<p class="list-caption">MEMO INDEX / {{ site.posts.size }} NOTES</p>
+<div class="note-list">
+  {% for post in site.posts %}
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  {% else %}
+    <span class="placeholder">記事はまだありません。</span>
+  {% endfor %}
+</div>
+<p class="placeholder">記事を追加すると、この一覧に自動で表示されます。</p>
+

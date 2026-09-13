@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="memo-article">
+  <div class="article-meta">{{ page.date | date: "%Y.%m.%d" }} <span>·</span> {{ page.category | default: 'TARKOV' }}</div>
+  {{ content }}
+  {% if page.tags %}
+  <div class="tag-row">
+    {% for tag in page.tags %}<span class="tag">#{{ tag }}</span>{% endfor %}
+  </div>
+  {% endif %}
+</article>
+
