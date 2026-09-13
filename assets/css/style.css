@@ -28,7 +28,7 @@ a { color: #477f83; text-decoration: none; }
 a:hover { color: #b26877; text-decoration: underline; }
 .site-shell { display: flex; width: 800px; min-height: 600px; margin: 22px auto; background: var(--paper); border: 1px solid #cbd2d5; box-shadow: 4px 4px 0 rgba(117, 131, 138, .14); }
 .sidebar { position: relative; flex: 0 0 166px; padding: 28px 18px 22px; background-color: var(--mint); background-image: radial-gradient(#b8d7d0 1px, transparent 1px); background-size: 8px 8px; border-right: 1px solid #c5dcd7; }
-.brand-mark { width: 120px; height: 30px; margin-bottom: 13px; padding-top: 4px; color: #fff; background: #8bb6af; border: 1px solid #6f9e99; font: bold 13px/20px Georgia, serif; text-align: center; letter-spacing: .04em; white-space: nowrap; }
+.brand-mark { width: 100%; max-width: 120px; height: 30px; margin-bottom: 13px; padding: 4px 2px 0; overflow: hidden; color: #fff; background: #8bb6af; border: 1px solid #6f9e99; font: bold 12px/20px "Courier New", monospace; text-align: center; letter-spacing: 0; white-space: nowrap; }
 .brand-name { margin: 0; color: #536f72; font: bold 16px Georgia, serif; letter-spacing: .02em; }
 .brand-note { margin: 1px 0 30px; color: #78908f; font-size: 11px; }
 .menu { border-top: 1px dotted #9dbbb5; }
