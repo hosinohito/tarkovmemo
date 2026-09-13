@@ -1,10 +1,9 @@
 title: Tarkov Memo
 description: Escape from Tarkovの個人的なメモ置き場
-baseurl: ""
+baseurl: "/tarkovmemo"
 url: ""
 markdown: kramdown
 permalink: /tarkov/:title/
 collections:
   posts:
     output: true
-
