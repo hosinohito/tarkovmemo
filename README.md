@@ -2,6 +2,8 @@
 
 GitHub Pagesで公開する個人メモサイトです。
 
+[公開サイトを開く](https://hosinohito.github.io/tarkovmemo/)
+
 ## 記事の追加
 
 `_posts/`に次の形式でMarkdownファイルを追加します。
@@ -23,4 +25,3 @@ tags: [tag]
 ```
 
 記事は`main`ブランチへのcommit後、GitHub Pagesによって自動公開されます。
-
